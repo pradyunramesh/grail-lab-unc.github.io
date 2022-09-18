@@ -5,7 +5,7 @@
 # Below is a documented template. You can also copy and edit one of the other papers.
 # - title: -- The paper title
 #   image: -- An image from your paper. This should be added to images/pubpic
-#   description: -- Your abstract (or a small portion from it)
+#   description: -- Your abstract (or a small portion from it)  ((**** Please make sure there are no double quotes besides the start and end of the abstract. Replace any such instance inside the abstract with a single quote.))
 #   authors: -- List of author names. For members of the lab they must match people.yaml
 #      - Firstname Lastname
 #      - show: Firstname Lastname* -- equal contribution can be marked by the show/link feature
@@ -98,11 +98,11 @@
     pdf: https://arxiv.org/pdf/2103.11955.pdf
     arxiv:  https://arxiv.org/abs/2103.11955
     code: https://www.github.com/rrmenon10/ADAPET
-  highlight: 1
+  highlight: 0
 
 - title: "Adversarial Scrubbing of Demographic Information for Text Classification"
   image: adversarial_scrubber.png
-  description: "Contextual representations learned by language models can often encode undesirable attributes, like demographic associations of the users, while being trained for an unrelated target task. We aim to scrub such undesirable attributes and learn fair representations while maintaining performance on the target task. In this paper, we present an adversarial learning framework "Adversarial Scrubber" (ADS), to debias contextual representations. We perform theoretical analysis to show that our framework converges without leaking demographic information under certain conditions. We extend previous evaluation techniques by evaluating debiasing performance using Minimum Description Length (MDL) probing. Experimental evaluations on 8 datasets show that ADS generates representations with minimal information about demographic attributes while being maximally informative about the target task."
+  description: "Contextual representations learned by language models can often encode undesirable attributes, like demographic associations of the users, while being trained for an unrelated target task. We aim to scrub such undesirable attributes and learn fair representations while maintaining performance on the target task. In this paper, we present an adversarial learning framework 'Adversarial Scrubber' (ADS), to debias contextual representations. We perform theoretical analysis to show that our framework converges without leaking demographic information under certain conditions. We extend previous evaluation techniques by evaluating debiasing performance using Minimum Description Length (MDL) probing. Experimental evaluations on 8 datasets show that ADS generates representations with minimal information about demographic attributes while being maximally informative about the target task."
   authors: 
     - Somnath Basu Roy Chowdhury
     - Sayan Ghosh
@@ -111,8 +111,7 @@
     - Shashank Srivastava
     - Snigdha Chaturvedi
 
-    
-  date: 2021/11/07
+  date: 2021-11-07
   venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
   links:
     pdf: https://aclanthology.org/2021.emnlp-main.43.pdf
@@ -127,7 +126,7 @@
     - Sayan Ghosh
     - Shashank Srivastava
     
-  date: 2021/11/07
+  date: 2021-11-07
   venue: Findings of Empirical Methods in Natural Language Processing (EMNLP)
   links:
     pdf: https://aclanthology.org/2021.findings-emnlp.125.pdf
@@ -155,7 +154,7 @@
 
 - title: "PRover: Proof Generation for Interpretable Reasoning over Rules"
   image: prover.png
-  description: "Recent work by Clark et al. (2020) shows that transformers can act as “soft theorem provers" by answering questions over explicitly provided knowledge in natural language. In our work, we take a step closer to emulating formal theorem provers, by proposing PROVER, an interpretable transformer-based model that jointly answers binary questions over rule-bases and generates the corresponding proofs. Our model learns to predict nodes and edges corresponding to proof graphs in an efficient constrained training paradigm. During inference, a valid proof, satisfying a set of global constraints is generated. We conduct experiments on synthetic, hand-authored, and human-paraphrased rule-bases to show promising results for QA and proof generation, with strong generalization performance. First, PROVER generates proofs with an accuracy of 87%, while retaining or improving performance on the QA task, compared to RuleTakers (up to 6% improvement on zero-shot evaluation). Second, when trained on questions requiring lower depths of reasoning, it generalizes significantly better to higher depths (up to 15% improvement). Third, PROVER obtains near perfect QA accuracy of 98% using only 40% of the training data. However, generating proofs for questions requiring higher depths of reasoning becomes challenging, and the accuracy drops to 65% for “depth 5”, indicating significant scope for future work."
+  description: "Recent work by Clark et al. (2020) shows that transformers can act as 'soft theorem provers' by answering questions over explicitly provided knowledge in natural language. In our work, we take a step closer to emulating formal theorem provers, by proposing PROVER, an interpretable transformer-based model that jointly answers binary questions over rule-bases and generates the corresponding proofs. Our model learns to predict nodes and edges corresponding to proof graphs in an efficient constrained training paradigm. During inference, a valid proof, satisfying a set of global constraints is generated. We conduct experiments on synthetic, hand-authored, and human-paraphrased rule-bases to show promising results for QA and proof generation, with strong generalization performance. First, PROVER generates proofs with an accuracy of 87%, while retaining or improving performance on the QA task, compared to RuleTakers (up to 6% improvement on zero-shot evaluation). Second, when trained on questions requiring lower depths of reasoning, it generalizes significantly better to higher depths (up to 15% improvement). Third, PROVER obtains near perfect QA accuracy of 98% using only 40% of the training data. However, generating proofs for questions requiring higher depths of reasoning becomes challenging, and the accuracy drops to 65% for 'depth 5', indicating significant scope for future work."
   authors: 
     - Swarnadeep Saha
     - Sayan Ghosh
