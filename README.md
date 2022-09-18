@@ -35,14 +35,14 @@ When the news section needs to be changed:
 
 #### When someone joins the group:
 
-1. Add them to [`_data/people.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/people.yml)
-2. Add their profile picture too [`images/teampic/`](images/teampic/).
+1. Add your name to [`_data/people.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/people.yml)
+2. Add your profile picture to [`images/teampic/`](images/teampic/).
 3. Create a pull request.
 
 
 #### When someone leaves the group:
 
-1. Remove them from [`_data/people.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/people.yml)
-2. Remove their profile picture from [`images/teampic/`](images/teampic/).
+1. Remove yourself from [`_data/people.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/people.yml)
+2. Remove your profile picture from [`images/teampic/`](images/teampic/).
 2. Add them to [`_data/alumni.yaml`](_data/alumni.yml) in the same branch.
 3. Create a pull request.
