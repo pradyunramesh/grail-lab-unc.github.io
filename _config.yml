@@ -22,7 +22,7 @@ sass:
 
 # Conversion
 markdown: kramdown
-highlighter: true
+highlighter: rogue
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false

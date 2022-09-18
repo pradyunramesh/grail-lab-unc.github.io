@@ -35,17 +35,17 @@ permalink: /team/
 {% endif %}
 
 
-## Alumni
+<!-- ## Alumni -->
 
-{% assign number_printed = 0 %}
-<ul>
-{% for member in site.data.alumni %}
-<li>
-  {% if member.link != "" and member.link != nil %}
-    <a href="{{ member.link }}">{{ member.name }}</a> ({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}
-  {% else %}
-    {{ member.name }}({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}
-  {% endif %}
-</li>
-{% endfor %}
-</ul>
+<!-- {% assign number_printed = 0 %} -->
+<!-- <ul> -->
+<!-- {% for member in site.data.alumni %} -->
+<!-- <li> -->
+  <!-- {% if member.link != "" and member.link != nil %} -->
+    <!-- <a href="{{ member.link }}">{{ member.name }}</a> ({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }} -->
+  <!-- {% else %} -->
+    <!-- {{ member.name }}({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }} -->
+  <!-- {% endif %} -->
+<!-- </li> -->
+<!-- {% endfor %} -->
+<!-- </ul> -->
