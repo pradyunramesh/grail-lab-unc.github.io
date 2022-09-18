@@ -28,7 +28,7 @@ permalink: /team/
 {% assign masters = site.data.people | where: "title", "masters"  %}
 {% assign bachelors = site.data.people | where: "title", "bachelors"  %}
 {% if masters.size > 0 %}
-  <h2 Masters and Bachelors Students </h2>
+  <h2> Masters and Bachelors Students </h2>
   {% include people.html people = masters %}
   {% include people.html people = bachelors %}
   <div class='row'></div>
@@ -41,7 +41,7 @@ permalink: /team/
 <ul>
 {% for member in site.data.alumni %}
 <li>
-  {% if member.link != "" %}
+  {% if member.link != "" and member.link != nil %}
     <a href="{{ member.link }}">{{ member.name }}</a> ({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}
   {% else %}
     {{ member.name }}({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}
