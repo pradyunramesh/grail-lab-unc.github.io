@@ -1,6 +1,8 @@
 # This file contains the list of all alumni
 # Once a member becomes inactive, their details should be moved from people.yml to alumni.yml.
 # Note that the format of alumni.yml is slightly different from people.yml.
+# Add most recent alumnus first.
+
 # The info field will display your designation at the time of working with the lab.
 # The title field must be either: pi, postdoc, phd, masters, bachelors, or intern
 # Add in the duration of stay in the lab.

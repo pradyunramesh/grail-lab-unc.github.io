@@ -29,7 +29,7 @@ permalink: /team/
 
 ## Alumni
 
-{% assign number_printed = 0 %}
+
 <ul>
 {% for member in site.data.alumni %}
 <li>
