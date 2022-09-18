@@ -41,7 +41,7 @@ permalink: /team/
 <ul>
 {% for member in site.data.alumni %}
 <li>
-  {% if member.link != "" and member.link != nil %}
+  {% if member.link != "" %}
     <a href="{{ member.link }}">{{ member.name }}</a> ({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}
   {% else %}
     {{ member.name }}({{ member.info }}), {{ member.duration.start }} - {{ member.duration.end }}

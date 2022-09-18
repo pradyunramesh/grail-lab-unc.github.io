@@ -21,6 +21,7 @@ Our website borrows the template from a couple of cool websites:
 When a publication is added or changed:
 
 1. Update [`_data/publications.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/publications.yaml)
+1. Add an image for your publication in [`images/pubpic/`](images/pubpic/)
 2. Create a pull request and ask the current maintainer to review.
 
 ### News
@@ -42,6 +43,6 @@ When the news section needs to be changed:
 #### When someone leaves the group:
 
 1. Remove them from [`_data/people.yaml`](https://github.com/grail-lab-unc/grail-lab-unc.github.io/edit/main/_data/people.yaml)
-2. Remove their profile picture from [`images/teampic`](images/teampic/).
+2. Remove their profile picture from [`images/teampic/`](images/teampic/).
 2. Add them to [`_data/alumni.yaml`](_data/alumni.yaml) in the same branch.
 3. Create a pull request.
