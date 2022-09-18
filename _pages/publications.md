@@ -43,6 +43,8 @@ permalink: /publications/
       {% assign per = site.data.people | find: "name", link %}
       {{ link }}
       {{ show }}
+      {{ per }}
+      {{ site.data.people }}
       {{ per.link }}
       {%- if per.link -%}
         <a href="{{ per.link | datapage_url: 'people' }}">{{ show }}</a>
