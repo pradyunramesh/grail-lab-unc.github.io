@@ -39,3 +39,12 @@
     start: 2020
   title: phd
   email: rrmenon@cs.unc.edu
+  
+- name: Kangda Wei
+  link: https://www.linkedin.com/in/kangdawei-40ab541b4/
+  photo: kangda.jpg
+  info: BS/MS Student
+  period:
+    start: 2021
+  title: masters
+  email: kangda@cs.unc.edu
