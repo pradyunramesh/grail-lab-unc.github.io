@@ -1,11 +1,11 @@
+# This file contains all news.
+# The date is specified in the format DD Mmm YYYY.
+# Add in most recent first. Only the first 9 news items will be displayed on the home page.
+# Others will automatically get truncated.
+# Note: Any links will have to be provided in html format. Kindly look at examples below for reference or the web admin.
+
 - date: 18 Aug 2022
   headline: Welcome Kerem!
 
 - date: 15 Jul 2022
   headline: Paper by Kangda Wei and Sayan Ghosh presented at the <a href="https://sites.google.com/view/wnu2022">Workshop on Narrative Understanding</a> at <a href="https://2022.naacl.org">NAACL 2022</a>
-
-# - date: 1. October 2021
-#   headline: Maialen will join us within a collaboration with the <a href="http://www.ingmarswart.nl">Swart Lab</a> -- welcome Maialen!
-
-# - date: 15. September 2021
-#   headline: Amber will join us with Casimir-Nanofront PhD fellowship -- welcome Amber!

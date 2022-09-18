@@ -9,12 +9,12 @@ permalink: /publications/
 
 # Publications
 
-## Research highlights
+## Recent Works
 
 (For a full list of publications, see [below](#full-list-of-publications))
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
+{% for publi in site.data.publications limit:6 %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
@@ -28,10 +28,31 @@ permalink: /publications/
   <pubtit>{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  <p>
+    {% for person in publi.authors %}
+      {%- if person.link -%}
+        {%- assign link = person.link -%}
+      {%- else -%}
+        {%- assign link = person -%}
+      {%- endif -%}
+      {%- if person.show -%}
+        {%- assign show = person.show -%}
+      {%- else -%}
+        {%- assign show = person -%}
+      {%- endif -%}
+      {% assign per = site.data.people | find: "name", link %}
+      {%- if per.link -%}
+        <a href="{{ per.link | datapage_url: 'people' }}">{{ show }}</a>
+      {%- else -%}
+        {{ show }}
+      {%- endif -%}
+      {%- if forloop.rindex > 2 -%}, {% endif %}
+      {%- if forloop.rindex == 2 and forloop.length > 2 -%}, {% endif %}
+      {%- if forloop.rindex == 2 -%} and {% endif %}
+    {% endfor %}
+  </p>
+  <p>{{publi.venue}}, {{ publi.date | date: '%Y' }}.<br></p>
+  <p>[<a href="{{ publi.links.pdf }}">pdf</a>]</p>
  </div>
 </div>
 
@@ -53,9 +74,31 @@ permalink: /publications/
 
 ## Full List of publications
 
-{% for publi in site.data.publist %}
+{% assign publications = site.data.publications | where: "preprint", nil | sort: 'date' | reverse %}
+{% if publications.size > 0 %}
+{% assign year_lastpaper = nil %}
+{% for paper in publications %}
+{% assign year_thispaper = paper.date | date: '%Y' %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% if year_lastpaper != year_thispaper %}
+{% unless forloop.first %}
+</ol>
+{% endunless %}
+<h3>{{ year_thispaper }}</h3>
+<ol reversed start="{{ forloop.rindex }}">
+{% endif %}
 
+<li>
+{% include paper.html
+    title=paper.title
+    authors=paper.authors
+    venue=paper.venue
+    date=paper.date
+    links=paper.links
+%}
+</li>
+
+{% assign year_lastpaper = year_thispaper %}
 {% endfor %}
+</ol>
+{% endif %}

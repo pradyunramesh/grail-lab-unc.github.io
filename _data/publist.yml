@@ -1,9 +1,0 @@
-- title: "CLUES: A Benchmark for Learning Classifiers using Natural Language Explanation"
-  image: clues.jpg
-  description: Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, humans have the ability to learn new concepts from language. Here, we explore learning zero-shot classifiers for structured data purely from language from natural language explanations as supervision. For this, we introduce CLUES, a benchmark consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. 
-  authors: Rakesh R Menon^, Sayan Ghosh^, Shashank Srivastava
-  link:
-    url: https://aclanthology.org/2022.acl-long.451/
-    display:  ACL 2022
-  highlight: 1
-  news2: See all [arXiv 2204.07142](https://arxiv.org/abs/2204.07142)

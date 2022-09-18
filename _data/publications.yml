@@ -1,0 +1,60 @@
+# This file contains the list of all publications
+# Publications will be sorted by the date field.
+# For conference publications, make the day the date of conference.
+
+# Below is a documented template. You can also copy and edit one of the other papers.
+# - title: -- The paper title
+#   image: -- An image from your paper. This should be added to images/pubpic
+#   description: -- Your abstract (or a small portion from it)
+#   authors: -- List of author names. For members of the lab they must match people.yaml
+#      - Firstname Lastname
+#      - show: Firstname Lastname* -- equal contribution can be marked by the show/link feature
+#        link: Firstname Lastname
+#      - show: Firstname Lastname*
+#        link: Firstname Lastname
+#  venue: -- ArXiv for pre-prints. Alternative, the conference/journal name without year.
+#  date: YYYY-MM-DD -- For conference publications, make the day the date of conference.
+#  links: -- Any left-side is valid, the right-side must be a link. Some examples below:
+#    pdf : https://arxiv.org/pdf/{id}.pdf [[[[[MANDATORY]]]]]
+#    arXiv: https://arxiv.org/abs/{id}
+#    openreview: https://openreview.net/forum?id={id}
+#    code: https://github.com/{username}/{id} -- Link to github
+#  hihlight: 0/1 If you want to showcase your work on the the Recent Work section
+
+
+- title: "CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations"
+  image: clues.jpg
+  description: Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, humans have the ability to learn new concepts from language. Here, we explore learning zero-shot classifiers for structured data purely from language from natural language explanations as supervision. For this, we introduce CLUES, a benchmark consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. 
+  authors: 
+    - show: Rakesh R Menon*
+      link: Rakesh R Menon
+    - show: Sayan Ghosh*
+      link: Sayan Ghosh
+    - Shashank Srivastava
+  date: 2022-05-26
+  venue: Proceedings of Association for Computational Linguistics (ACL)
+  links:
+    pdf: https://aclanthology.org/2022.acl-long.451.pdf
+    arxiv:  https://arxiv.org/abs/2204.07142
+    code: https://www.github.com/rrmenon10/ExEnt
+    dataset: https://clues-benchmark.github.io/
+  highlight: 1
+
+- title: "Improving and Simplifying Pattern Exploiting Training"
+  image: adapet.jpg
+  description: Pattern Exploiting Training (PET) is a recent approach that leverages patterns for few-shot learning. However, PET uses task-specific unlabeled data. In this paper, we focus on few shot learning without any unlabeled data and introduce ADAPET, which modifies PET’s objective to provide denser supervision during fine-tuning. As a result, ADAPET outperforms PET on SuperGLUE without any task-specific unlabeled data.
+  authors: 
+    - Derek Tam*
+    - show: Rakesh R Menon*
+      link: Rakesh R Menon
+    - Mohit Bansal
+    - Shashank Srivastava
+    - Colin Raffel
+    
+  date: 2021-11-07
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://arxiv.org/pdf/2103.11955.pdf
+    arxiv:  https://arxiv.org/abs/2103.11955
+    code: https://www.github.com/rrmenon10/ADAPET
+  highlight: 1

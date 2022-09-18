@@ -1,0 +1,31 @@
+<p>
+<strong>{{include.title}}</strong><br>
+{% for person in include.authors %}
+      {%- if person.link -%}
+        {%- assign link = person.link -%}
+      {%- else -%}
+        {%- assign link = person -%}
+      {%- endif -%}
+      {% assign per = site.data.people | find: "name", link %}
+      {%- if person.show -%}
+        {%- assign show = person.show -%}
+      {%- else -%}
+        {%- assign show = person -%}
+      {%- endif -%}
+      {%- if per.link -%}
+        <a href="{{ per.link | datapage_url: 'people' }}">{{ show }}</a>
+      {%- else -%}
+        {{ show }}
+      {%- endif -%}
+      {%- if forloop.rindex > 2 -%}, {% endif %}
+      {%- if forloop.rindex == 2 and forloop.length > 2 -%}, {% endif %}
+      {% if forloop.rindex == 2 %} and {% endif %}
+    {% endfor %}
+<br>
+{{include.venue}}, {{include.date | date: '%Y' }}.<br>
+{% if include.links != "" and include.links != nil %}
+  {% for link in include.links %}
+    [<a href="{{link[1]}}">{{link[0]}}</a>]{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+{% endif %}
+</p>

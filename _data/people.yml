@@ -1,0 +1,37 @@
+# This file contains all active members displayed on https://chandar-lab.github.io/people/
+# Once a member becomes inactive, their details should be moved from people.yaml to alumni.yaml.
+# Note that the format of alumni.yaml is slightly different from people.yaml.
+
+# Below is a documented template.
+# - name: -- Your name
+#   link: -- Link to your personal website / linkedin
+#   photo: -- Name of your photo file (as stored in images/teampic/)
+#   info: -- Your title
+#   period: 
+#      start: -- The year you started working in the lab
+#   title: -- This is an identifier used for some codes. Choose one of (pi/phd/masters/bachelors)
+#   email: -- your preferred contact email
+
+
+- name: Shashank Srivastava
+  link: https://ssriva.com
+  photo: shashank.jpg
+  info: Assistant professor
+  period:
+    start: 2020
+  title: pi
+  email: ssrivastava@cs.unc.edu
+
+- name: Sayan Ghosh
+  link: https://sgdgp.github.io
+  photo: sayan.jpg
+  info: PhD Student, started Aug 2019
+  title: phd
+  email: sayghosh@cs.unc.edu
+
+- name: Rakesh R Menon
+  link: https://cs.unc.edu/~rrmenon
+  photo: rakesh.jpg
+  info: PhD Student, started Aug 2020
+  title: phd
+  email: rrmenon@cs.unc.edu
