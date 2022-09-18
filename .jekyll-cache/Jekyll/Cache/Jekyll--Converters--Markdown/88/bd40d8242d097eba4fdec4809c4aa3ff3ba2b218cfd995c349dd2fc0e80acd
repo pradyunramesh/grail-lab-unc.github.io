@@ -1,6 +1,6 @@
-I"]<h1 id="group-members">Group Members</h1>
+I"	<h1 id="group-members">Group Members</h1>
 
-<p><strong>We are  looking for new PhD students, Postdocs, and Master students to join the team</strong> <a href="http://localhost:4000/vacancies">(see openings)</a> <strong>!</strong></p>
+<p><strong>We are  looking for new PhD students, Postdocs, and Master students to join the team</strong> <a href="/vacancies">(see openings)</a> <strong>!</strong></p>
 
 <h2 id="principal-investigator">Principal Investigator</h2>
 
@@ -8,7 +8,7 @@
     
     
     <div class="col-sm-6 clearfix">
-        <img src="http://localhost:4000/images/teampic/shashank.jpg" class="img-responsive" width="25%" style="float: left" />
+        <img src="/images/teampic/shashank.jpg" class="img-responsive" width="25%" style="float: left" />
 <h4><a href="https://ssriva.com">Shashank Srivastava</a></h4>
 <i>Assistant professor</i> 
     </div>
@@ -26,7 +26,7 @@
     
     
     <div class="col-sm-6 clearfix">
-        <img src="http://localhost:4000/images/teampic/sayan.jpg" class="img-responsive" width="25%" style="float: left" />
+        <img src="/images/teampic/sayan.jpg" class="img-responsive" width="25%" style="float: left" />
 <h4><a href="https://sgdgp.github.io">Sayan Ghosh</a></h4>
 <i>PhD Student, started Aug 2019</i> 
     </div>
@@ -35,7 +35,7 @@
     
     
     <div class="col-sm-6 clearfix">
-        <img src="http://localhost:4000/images/teampic/rakesh.jpg" class="img-responsive" width="25%" style="float: left" />
+        <img src="/images/teampic/rakesh.jpg" class="img-responsive" width="25%" style="float: left" />
 <h4><a href="https://cs.unc.edu/~rrmenon">Rakesh R Menon</a></h4>
 <i>PhD Student, started Aug 2020</i> 
     </div>
