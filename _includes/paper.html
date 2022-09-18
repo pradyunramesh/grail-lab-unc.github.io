@@ -6,14 +6,14 @@
       {%- else -%}
         {%- assign link = person -%}
       {%- endif -%}
-      {% assign per = site.data.people | find: "name", link %}
       {%- if person.show -%}
         {%- assign show = person.show -%}
       {%- else -%}
         {%- assign show = person -%}
       {%- endif -%}
-      {%- if per.link -%}
-        <a href="{{ per.link | datapage_url: 'people' }}">{{ show }}</a>
+      {% assign per = site.data.people | where: "name", link %}
+      {%- if per[0].link -%}
+        <a href="{{ per[0].link | datapage_url: 'people' }}">{{ show }}</a>
       {%- else -%}
         {{ show }}
       {%- endif -%}
