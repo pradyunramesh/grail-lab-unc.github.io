@@ -21,6 +21,32 @@
 #    code: https://github.com/{username}/{id} -- Link to github
 #  hihlight: 0/1 If you want to showcase your work on the the Recent Work section
 
+- title: "Compositional Generalization for Kinship Prediction through Data Augmentation"
+  image: clutrr_kangda.jpg
+  description: "Transformer-based models have shown promising performance in numerous NLP tasks. However, recent work has shown the limitation of such models in showing compositional generalization, which requires models to generalize to novel compositions of known concepts. In this work, we explore two strategies for compositional generalization on the task of kinship prediction from stories,(1) data augmentation and (2) predicting and using intermediate structured representation (in form of kinship graphs). Our experiments show that data augmentation boosts generalization performance by around 20% on average relative to a baseline model from prior work not using these strategies. However, predicting and using intermediate kinship graphs leads to a deterioration in the generalization of kinship prediction by around 50% on average relative to models that only leverage data augmentation."
+  authors: 
+    - Kangda Wei
+    - Sayan Ghosh
+    - Shashank Srivastava
+  date: 2022-07-15
+  venue: Proceedings of the 4th Workshop of Narrative Understanding (WNU)
+  links:
+    pdf: https://aclanthology.org/2022.wnu-1.2.pdf
+    code: https://github.com/WeiKangda/ssd-clutrr
+  highlight: 0
+
+- title: "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+  image: bigbench.png
+  description: "Language models demonstrate both quantitative improvement and new qualitative capabilities with increasing scale. Despite their potentially transformative impact, these new capabilities are as yet poorly characterized. In order to inform future research, prepare for disruptive new model capabilities, and ameliorate socially harmful effects, it is vital that we understand the present and near-future capabilities and limitations of language models. To address this challenge, we introduce the Beyond the Imitation Game benchmark (BIG-bench). BIG-bench currently consists of 204 tasks, contributed by 442 authors across 132 institutions. Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development, and beyond. BIG-bench focuses on tasks that are believed to be beyond the capabilities of current language models. We evaluate the behavior of OpenAI's GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters."
+  authors: 
+    - Big-Bench Collaboration
+  date: 2022-06-10
+  venue: Under submission at TMLR
+  links:
+    pdf: https://arxiv.org/abs/2206.04615
+    code: https://github.com/google/BIG-bench
+    dataset: https://github.com/google/BIG-bench
+  highlight: 0
 
 - title: "CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations"
   image: clues.jpg
@@ -38,6 +64,21 @@
     arxiv:  https://arxiv.org/abs/2204.07142
     code: https://www.github.com/rrmenon10/ExEnt
     dataset: https://clues-benchmark.github.io/
+  highlight: 1
+
+- title: "ePiC: Employing Proverbs in Context as a Benchmark for Abstract Language Understanding"
+  image: epic.png
+  description: "ePiC is a crowdsourced dataset of narratives for employing proverbs in context as a benchmark for abstract language understanding. The dataset provides fine-grained annotation of aligned spans between proverbs and narratives, and contains minimal lexical overlaps between narratives and proverbs, ensuring that models need to go beyond surface-level reasoning to succeed. The dataset is accompanied by three tasks : (1) proverb recommendation and alignment prediction, (2) narrative generation for a given proverb and topic, and (3) identifying narratives with similar motifs."
+  authors: 
+    - Sayan Ghosh
+    - Shashank Srivastava
+  date: 2022-05-26
+  venue: Proceedings of Association for Computational Linguistics (ACL)
+  links:
+    pdf: https://aclanthology.org/2022.acl-long.276.pdf
+    arxiv:  https://arxiv.org/abs/2109.06838
+    code: https://github.com/sgdgp/epic
+    dataset: https://epic-benchmark.github.io/
   highlight: 1
 
 - title: "Improving and Simplifying Pattern Exploiting Training"
@@ -58,3 +99,73 @@
     arxiv:  https://arxiv.org/abs/2103.11955
     code: https://www.github.com/rrmenon10/ADAPET
   highlight: 1
+
+- title: "Adversarial Scrubbing of Demographic Information for Text Classification"
+  image: adversarial_scrubber.png
+  description: "Contextual representations learned by language models can often encode undesirable attributes, like demographic associations of the users, while being trained for an unrelated target task. We aim to scrub such undesirable attributes and learn fair representations while maintaining performance on the target task. In this paper, we present an adversarial learning framework "Adversarial Scrubber" (ADS), to debias contextual representations. We perform theoretical analysis to show that our framework converges without leaking demographic information under certain conditions. We extend previous evaluation techniques by evaluating debiasing performance using Minimum Description Length (MDL) probing. Experimental evaluations on 8 datasets show that ADS generates representations with minimal information about demographic attributes while being maximally informative about the target task."
+  authors: 
+    - Somnath Basu Roy Chowdhury
+    - Sayan Ghosh
+    - Yiyuan Li
+    - Junier B Oliva
+    - Shashank Srivastava
+    - Snigdha Chaturvedi
+
+    
+  date: 2021/11/07
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://aclanthology.org/2021.emnlp-main.43.pdf
+    arxiv: https://arxiv.org/abs/2109.08613
+    code: https://github.com/brcsomnath/adversarial-scrubber
+  highlight: 0
+  
+- title: "Mapping Language to Programs using Multiple Reward Components with Inverse Reinforcement Learning"
+  image: irl_virtualhome.png
+  description: "Mapping natural language instructions to programs that computers can process is a fundamental challenge. Existing approaches focus on likelihood-based training or using reinforcement learning to fine-tune models based on a single reward. In this paper, we pose program generation from language as Inverse Reinforcement Learning. We introduce several interpretable reward components and jointly learn (1) a reward function that linearly combines them, and (2) a policy for program generation. Fine-tuning with our approach achieves significantly better performance than competitive methods using Reinforcement Learning (RL). On the VirtualHome framework, we get improvements of up to 9.0% on the Longest Common Subsequence metric and 14.7% on recall-based metrics over previous work on this framework (Puig et al., 2018). The approach is data-efficient, showing larger gains in performance in the low-data regime. Generated programs are also preferred by human evaluators over an RL-based approach, and rated higher on relevance, completeness, and human-likeness."
+  authors: 
+    - Sayan Ghosh
+    - Shashank Srivastava
+    
+  date: 2021/11/07
+  venue: Findings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://aclanthology.org/2021.findings-emnlp.125.pdf
+    arxiv: https://arxiv.org/abs/2110.00842
+    code: https://github.com/sgdgp/VirtualHome_IRL
+  highlight: 0
+
+- title: "How Helpful is Inverse Reinforcement Learning for Table-to-Text Generation?"
+  image: irl_table_to_text.png
+  description: "Existing approaches for the Table-to-Text task suffer from issues such as missing information, hallucination and repetition. Many approaches to this problem use Reinforcement Learning (RL), which maximizes a single manually defined reward, such as BLEU. In this work, we instead pose the Table-to-Text task as Inverse Reinforcement Learning (IRL) problem. We explore using multiple interpretable unsupervised reward components that are combined linearly to form a composite reward function. The composite reward function and the description generator are learned jointly. We find that IRL outperforms strong RL baselines marginally. We further study the generalization of learned IRL rewards in scenarios involving domain adaptation. Our experiments reveal significant challenges in using IRL for this task."
+  authors: 
+    - show: Sayan Ghosh*
+      link: Sayan Ghosh
+    - show: Zheng Qi*
+      link: Zheng Qi
+    - Snigdha Chaturvedi
+    - Shashank Srivastava
+    
+  date: 2021-08-02
+  venue: Proceedings of Association for Computational Linguistics (ACL)
+  links:
+    pdf: https://aclanthology.org/2021.acl-short.11.pdf
+    code: https://github.com/issacqzh/IRL_Table2Text
+  highlight: 0
+
+- title: "PRover: Proof Generation for Interpretable Reasoning over Rules"
+  image: prover.png
+  description: "Recent work by Clark et al. (2020) shows that transformers can act as “soft theorem provers" by answering questions over explicitly provided knowledge in natural language. In our work, we take a step closer to emulating formal theorem provers, by proposing PROVER, an interpretable transformer-based model that jointly answers binary questions over rule-bases and generates the corresponding proofs. Our model learns to predict nodes and edges corresponding to proof graphs in an efficient constrained training paradigm. During inference, a valid proof, satisfying a set of global constraints is generated. We conduct experiments on synthetic, hand-authored, and human-paraphrased rule-bases to show promising results for QA and proof generation, with strong generalization performance. First, PROVER generates proofs with an accuracy of 87%, while retaining or improving performance on the QA task, compared to RuleTakers (up to 6% improvement on zero-shot evaluation). Second, when trained on questions requiring lower depths of reasoning, it generalizes significantly better to higher depths (up to 15% improvement). Third, PROVER obtains near perfect QA accuracy of 98% using only 40% of the training data. However, generating proofs for questions requiring higher depths of reasoning becomes challenging, and the accuracy drops to 65% for “depth 5”, indicating significant scope for future work."
+  authors: 
+    - Swarnadeep Saha
+    - Sayan Ghosh
+    - Shashank Srivastava
+    - Mohit Bansal
+    
+  date: 2020-11-17
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://aclanthology.org/2020.emnlp-main.9.pdf
+    arxiv: https://arxiv.org/abs/2010.02830
+    code: https://github.com/swarnaHub/PRover
+  highlight: 0
