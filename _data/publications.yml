@@ -168,3 +168,317 @@
     arxiv: https://arxiv.org/abs/2010.02830
     code: https://github.com/swarnaHub/PRover
   highlight: 0
+
+- title: "A Topical graph-kernel for Link Prediction in Labeled Graphs"
+  image: ""
+  description: ""
+  authors:
+    - Snigdha Chaturvedi
+    - Hal Daume III
+    - Taesun Moon
+    - Shashank Srivastava
+  date: 2012-06-26
+  venue: ICML Workshop on Mining and Learning with Graphs (MLG)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava13-graphkernel.pdf
+  highlight: 0
+
+- title: "A Structured Distributional Semantic Model : Integrating Structure with Semantics"
+  image: ""
+  description: ""
+  authors:
+    - Kartik Goyal*
+    - Sujay Kumar Jauhar*
+    - Huiying Li*
+    - Mrinmaya Sachan*
+    - show: Shashank Srivastava*
+      link: Shashank Srivastava
+    - Eduard Hovy
+  date: 2013-08-04
+  venue: Workshop on Continuous Vector Space Models and their Compositionality, ACL
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava13-sdsmWorkshop.pdf
+  highlight: 0
+
+- title: "Identifying Metaphorical Word Use with Tree Kernels"
+  image: ""
+  description: ""
+  authors:
+    - Dirk Hovy
+    - Shashank Srivastava
+    - Sujay Kumar Jauhar
+    - Mrinmaya Sachan
+    - Kartik Goyal
+    - Huiying Li
+    - Whitney Sanders
+    - Eduard Hovy
+  date: 2013-06-13
+  venue: NAACL-HLT Meta4NLP Workshop
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava13-metaphor.pdf
+  highlight: 0
+
+- title: "A Structured Distributional Semantic Model for Event Co-reference"
+  image: ""
+  description: ""
+  authors:
+    - Kartik Goyal*
+    - Sujay Kumar Jauhar*
+    - Huiying Li*
+    - Mrinmaya Sachan*
+    - show: Shashank Srivastava*
+      link: Shashank Srivastava
+    - Eduard Hovy
+  date: 2013-08-04
+  venue: Proceedings of the Association of Computational Linguistics (ACL)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava13-sdsm.pdf
+  highlight: 0
+
+- title: "A Walk-based Semantically Enriched Tree Kernel Over Distributed Word Representations"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Dirk Hovy
+    - Eduard Hovy
+  date: 2013-10-18
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava13-treekernel.pdf
+  highlight: 0
+
+- title: "Spatial Compactness meets Topical Consistency: Jointly modeling link and content for community detection"
+  image: ""
+  description: ""
+  authors:
+    - Mrinmaya Sachan
+    - Avinava Dubey
+    - Shashank Srivastava
+    - Eric P Xing
+    - Eduard Hovy
+  date: 2014-02-24
+  venue: Proceedings of Web Search and Data Mining (WSDM)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava14-community.pdf
+  highlight: 0
+
+- title: "Vector space semantics with frequency-driven motifs"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Eduard Hovy
+  date: 2014-05-06
+  venue: Proceedings of the Association of Computational Linguistics (ACL)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava14-motifs.pdf
+  highlight: 0
+
+- title: "CMU-ML System for KBP Cold Start Slot Filling"
+  image: ""
+  description: ""
+  authors:
+    - Bryan Kisiel
+    - Bill McDowell
+    - Matt Gardner
+    - Ndapandula Nakashole
+    - Emmanouil A. Platanios
+    - Abulhair Saparov
+    - Shashank Srivastava
+    - Derry Wijaya
+    - Tom Mitchell
+  date: 2015-11-16
+  venue: Proceedings of the Text Analysis Conference (TAC)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava15-KBP.pdf
+  highlight: 0
+
+- title: "CMUML Micro-Reader System for KBP 2016 Cold Start Slot Filling, Event Nugget Detection, and Event Argument Linking"
+  image: ""
+  description: ""
+  authors:
+    - Bishan Yang
+    - Ndapandula Nakashole
+    - Bryan Kisiel
+    - Emmanouil A. Platanios
+    - Abulhair Saparov
+    - Shashank Srivastava
+    - Derry Wijaya
+    - Tom Mitchell
+  date: 2016-11-14
+  venue: Proceedings of the Text Analysis Conference (TAC)
+  links:
+    pdf: https://tac.nist.gov/publications/2016/participant.papers/TAC2016.CMUML.proceedings.pdf
+  highlight: 0
+
+- title: "Modeling Evolving Relationships Between Characters in Literary Novel"
+  image: ""
+  description: ""
+  authors:
+    - Snigdha Chaturvedi
+    - Shashank Srivastava
+    - Hal Daume III
+    - Chris Dyer
+  date: 2016-02-12
+  venue: Proceedings of the Association for the Advancement of Artificial Intelligence (AAAI)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava16-evolving.pdf
+  highlight: 0
+
+- title: "Inferring Interpersonal Relations in Narrative Summaries"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Snigdha Chaturvedi
+    - Tom Mitchell
+  date: 2016-02-12
+  venue: Proceedings of the Association for the Advancement of Artificial Intelligence (AAAI)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava16-inferring.pdf
+  highlight: 0
+
+- title: "Parsing Natural Language Conversations with Contextual Cues"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Amos Azaria
+    - Tom Mitchell
+  date: 2017-08-19
+  venue: Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava17-conversations.pdf
+  highlight: 0
+
+- title: "Joint Concept Learning and Semantic Parsing from Natural Language Explanations"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Igor Labutov
+    - Tom Mitchell
+  date: 2017-09-07
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava17-jointLNL.pdf
+  highlight: 0
+
+- title: "Learning Classifiers from Declarative Language"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Igor Labutov
+    - Tom Mitchell
+  date: 2017-12-07
+  venue: NeurIPS Workshop on Learning from Limited Data
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava17-lldworkshop.pdf
+  highlight: 0
+
+- title: "Where have I heard this story before? : Identifying Narrative Similarity in Movie Remakes"
+  image: ""
+  description: ""
+  authors:
+    - Snigdha Chaturvedi
+    - Shashank Srivastava
+    - Dan Roth
+  date: 2018-06-01
+  venue: Proceedings of the North Americal Chapter of Association of Computational Linguistics (NAACL)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava18-remakes.pdf
+  highlight: 0
+
+- title: "LIA: A Natural Language Programmable Personal Assistant"
+  image: ""
+  description: ""
+  authors:
+    - Igor Labutov
+    - Shashank Srivastava
+    - Tom Mitchell
+  date: 2018-10-31
+  venue: Systems Demo, Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava18-LiA.pdf
+  highlight: 0
+
+- title: "Zero-shot Learning of Classifiers from Natural Language Quantification"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Igor Labutov
+    - Tom Mitchell
+  date: 2018-07-15
+  venue: Proceedings of the Association of Computational Linguistics (ACL)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava18-lnq.pdf
+  highlight: 0
+
+- title: "A Spatial Model for Extracting and Visualizing Latent Discourse Structure in Text"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Nebojsa Jojic
+  date: 2018-07-15
+  venue: Proceedings of the Association of Computational Linguistics (ACL)
+  links:
+    pdf: http://www.cs.cmu.edu/~shashans/papers/srivastava18-spatial.pdf
+  highlight: 0
+
+- title: "Learning to Ask for Conversational Machine Learning"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Igor Labutov
+    - Tom Mitchell
+  date: 2019-11-03
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://aclanthology.org/D19-1426.pdf
+  highlight: 0
+
+- title: "An Agent for Learning New Natural Language Commands"
+  image: ""
+  description: ""
+  authors:
+    - Amos Azaria
+    - Shashank Srivastava
+    - Jayant Krishnamurthy
+    - Igor Labutov
+    - Tom Mitchell
+  date: 2020-01-01
+  venue: Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS)
+  links:
+    link: https://link.springer.com/article/10.1007/s10458-019-09425-x
+  highlight: 0
+
+- title: "Learning Web-based procedures by Reasoning over Explanations and Demonstrations in Context"
+  image: ""
+  description: ""
+  authors:
+    - Shashank Srivastava
+    - Oleksandr Polozov
+    - Nebojsa Jojic
+    - Christopher Meek
+  date: 2020-07-06
+  venue: Proceedings of the Association of Computational Linguistics (ACL)
+  links:
+    pdf: https://aclanthology.org/2020.acl-main.684.pdf
+  highlight: 0
+
+- title: "Does Social Pressure Drive Persuasion in Online Fora?"
+  image: ""
+  description: ""
+  authors:
+    - Ayush Jain
+    - Shashank Srivastava
+  date: 2021-11-07
+  venue: Proceedings of Empirical Methods in Natural Language Processing (EMNLP)
+  links:
+    pdf: https://aclanthology.org/2021.emnlp-main.725.pdf
+  highlight: 0
