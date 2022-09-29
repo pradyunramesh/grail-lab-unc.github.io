@@ -15,7 +15,12 @@
       {%- if per[0].link -%}
         <a href="{{ per[0].link | datapage_url: 'people' }}">{{ show }}</a>
       {%- else -%}
-        {{ show }}
+        {% assign per = site.data.alumni | where: "name", link %}
+        {%- if per[0].link -%}
+          <a href="{{ per[0].link | datapage_url: 'alumni' }}">{{ show }}</a>
+        {%- else -%}
+          {{ show }}
+        {%- endif -%}
       {%- endif -%}
       {%- if forloop.rindex > 2 -%}, {% endif %}
       {%- if forloop.rindex == 2 and forloop.length > 2 -%}, {% endif %}
