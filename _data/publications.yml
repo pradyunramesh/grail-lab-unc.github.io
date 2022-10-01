@@ -81,6 +81,21 @@
     dataset: https://epic-benchmark.github.io/
   highlight: 1
 
+- title: "Predicting Difficulty and Discrimination of Natural Language Questions"
+  image: pred_irt.png
+  description: "Our experiments show that it is possible to predict both difficulty and discrimination parameters for new questions, and these traits are correlated with features of questions, answers, and associated contexts. Our findings can have significant implications for the creation of new datasets and tests on the one hand and strategies such as active learning and curriculum learning on the other."
+  authors:
+    - Matthew Byrd
+    - Shashank Srivastava
+  date: 2022-05-26
+  venue: Proceedings of Association for Computational Linguistics (ACL)
+  links:
+    pdf: https://aclanthology.org/2022.acl-short.15.pdf
+    code: https://github.com/ByrdOfAFeather/pred_irt
+    dataset: https://github.com/ByrdOfAFeather/pred_irt
+  highlight: 0
+
+
 - title: "Improving and Simplifying Pattern Exploiting Training"
   image: adapet.jpg
   description: Pattern Exploiting Training (PET) is a recent approach that leverages patterns for few-shot learning. However, PET uses task-specific unlabeled data. In this paper, we focus on few shot learning without any unlabeled data and introduce ADAPET, which modifies PET’s objective to provide denser supervision during fine-tuning. As a result, ADAPET outperforms PET on SuperGLUE without any task-specific unlabeled data.

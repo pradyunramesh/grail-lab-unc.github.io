@@ -48,3 +48,12 @@
     start: 2021
   title: masters
   email: kangda@cs.unc.edu
+
+- name: Matthew Byrd
+  link: https://byrdofafeather.github.io
+  photo: matthew.jpg
+  info: BS/MS Student
+  period:
+    start: 2020
+  title: masters
+  email: byrdof@live.unc.edu
